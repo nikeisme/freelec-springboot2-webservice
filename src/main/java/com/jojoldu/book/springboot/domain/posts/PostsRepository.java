@@ -7,6 +7,4 @@ import org.springframework.data.jpa.repository.JpaRepository;
 // entity 클래스는 기본 Repository와 함께 움직여야해서 도메인 패키지에서 함께 관리해야함.
 public interface PostsRepository extends JpaRepository<Posts,Long> {
 
-
-
 }
